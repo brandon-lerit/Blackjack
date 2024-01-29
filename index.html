@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>BlackJack</title>
+        <link rel="stylesheet" href="site.css">
+        <script src="blackjack.js"></script>
+    </head>
+
+    <body>
+        <span id="dealer-sum"></span>
+
+        <div id="dealer-cards">
+            <img id="faceDownCard" src="./card-images/back_of_card.png" alt="Back of Card">
+        </div>
+
+        <span id="round-message"></span>
+
+        <p>
+            Blackjack Pays 3 to 2
+        </p>
+
+        <p>
+            Dealer Must Stand On All 17
+        </p>
+
+        <span id="player-sum"></span>
+        <div id="player-cards"></div>
+
+        <button type="button" id="hit">Hit</button>
+        <button type="button" id="stand">Stand</button>
+        <button type="button" id="reset">Reset</button>
+
+        <span id="points"></span>
+    </body>
+</html>

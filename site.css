@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    width: 150px;
+    margin: 5px;
+}
+
+p {
+    font-size: 24px;
+    font-variant: small-caps;
+    font-family: 'Trebuchet MS';
+    color: white;
+    margin: 40px;
+}
+
+#round-message {
+    font-size: 34px;
+    font-variant: small-caps;
+    font-family: 'Trebuchet MS';
+    color: white;
+    margin: 40px;
+    font-weight: bold;
+    text-underline-position: below;
+}
+
+#dealer-sum {
+    font-size: 24px;
+    font-variant: small-caps;
+    font-family: 'Trebuchet MS';
+    color: red;
+    margin: 40px;
+}
+
+#player-sum {
+    font-size: 24px;
+    font-variant: small-caps;
+    font-family: 'Trebuchet MS';
+    color: plum;
+    margin: 40px;
+}
+
+html {
+    background-color: #009900 
+}
+
+button {
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS';
+    border: white;
+    background-color: white;
+    margin: 20px;
+}
